@@ -249,7 +249,22 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 	border-radius: 2px;
 }
 
+.news-table {
+	border-collapse: separate;
+	border-spacing: 0 0.55em;
+	margin-top: 0.2em;
+}
+
+.news-table td {
+	border: none;
+	vertical-align: top;
+	line-height: 1.4;
+	padding: 0;
+}
+
 .news-date {
 	font-weight: bold;
 	white-space: nowrap;
+	color: #444444;
+	padding-right: 8px !important;
 }
