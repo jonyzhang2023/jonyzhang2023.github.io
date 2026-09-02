@@ -175,6 +175,63 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 	font-weight: bold;
 }
 
+.pubtable {
+	width: 100%;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0 1.1em;
+	margin: 0.2em 0 0.6em 0;
+}
+
+.pubtable td {
+	border: none;
+	vertical-align: top;
+	padding: 0;
+}
+
+.pubthumb {
+	width: 210px;
+	padding-right: 18px !important;
+}
+
+.pubthumb img {
+	width: 210px;
+	height: 118px;
+	object-fit: cover;
+	border: 1px solid #d0d0d0;
+	border-radius: 2px;
+	display: block;
+	background: #f7f7f7;
+}
+
+.pubthumb a:hover {
+	border-bottom: none;
+	font-weight: normal;
+}
+
+.pub-title {
+	font-weight: bold;
+	line-height: 1.35;
+}
+
+.pubbody {
+	line-height: 1.45;
+}
+
+.pub-note {
+	display: block;
+	margin-top: 0.35em;
+	font-size: 90%;
+	color: #555555;
+	font-style: italic;
+}
+
+.pub-more {
+	margin-top: 0.4em;
+	margin-bottom: 0.2em;
+	color: #555555;
+}
+
 .header-table {
 	width: 100%;
 	border: none;
